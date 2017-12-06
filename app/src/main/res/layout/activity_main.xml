@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EF6C00"
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+   <ImageView
+       android:id="@+id/imageView"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:src="@drawable/udacity"  />
+   
+   <TextView
+       android:id="@+id/textView"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="138dp"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentLeft="true"
+       android:layout_marginLeft="27dp"
+       android:textColor="#FFFFFF"
+       android:textSize="20dp"
+       android:text="2465 Latham St Mountain View, CA 94043"/>
+
+   <TextView
+       android:id="@+id/textView2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="72dp"
+       android:layout_alignTop="@id/textView"
+       android:layout_alignLeft="@id/textView"
+       android:textColor="#FFFFFF"
+       android:textSize="20dp"
+       android:text="Tel:650-555-5555"/>
+
+   <TextView
+       android:id="@+id/textView3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="34dp"
+       android:layout_below="@id/textView2"
+       android:layout_alignLeft="@id/textView2"
+       android:textColor="#FFFFFF"
+       android:textSize="20dp"
+       android:text="www.udacity.com"/>
+
+
+</RelativeLayout>
